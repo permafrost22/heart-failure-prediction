@@ -50,8 +50,8 @@ dataset em `/kaggle/input/...`.
 .
 ├── heart_failure_limpo.py
 ├── requirements.txt
+├── heart_failure_clinical_records_dataset.csv
 └── README.md
-└──heart_failure_clinical_records_dataset.csv
 ```
 
 ## Observações
