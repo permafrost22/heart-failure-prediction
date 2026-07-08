@@ -40,7 +40,6 @@ python heart_failure_limpo.py
 
 O script lê o CSV a partir da própria pasta onde ele está salvo, então basta
 colocar `heart_failure_clinical_records_dataset.csv` na mesma pasta do script
-— não importa de onde você chame o `python` no terminal.
 
 Se preferir rodar no Kaggle, troque a leitura do passo 1 pelo caminho do
 dataset em `/kaggle/input/...`.
@@ -58,7 +57,7 @@ dataset em `/kaggle/input/...`.
 ## Observações
 
 - As curvas ROC são calculadas em cima das classes previstas (`predict`), não
-  das probabilidades — mantém a mesma abordagem usada em todos os modelos
+  das probabilidades, mantém a mesma abordagem usada em todos os modelos
   pra ficarem comparáveis entre si.
 - A busca de hiperparâmetros do Random Forest e do SVM pode demorar alguns
   minutos, dependendo da máquina.
