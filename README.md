@@ -35,7 +35,7 @@ em relação ao desfecho.
 
 ```bash
 pip install -r requirements.txt
-python heart_failure_limpo.py
+python heart_failure.py
 ```
 
 O script lê o CSV a partir da própria pasta onde ele está salvo, então basta
@@ -48,7 +48,7 @@ dataset em `/kaggle/input/...`.
 
 ```
 .
-├── heart_failure_limpo.py
+├── heart_failure.py
 ├── requirements.txt
 ├── heart_failure_clinical_records_dataset.csv
 └── README.md
